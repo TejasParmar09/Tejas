@@ -1,0 +1,18 @@
+create table student
+(
+    id int not null,
+    name char(40),
+    salary decimal(10,2),
+    email varchar(50),
+    phone int 
+);
+create table marks(
+   id int ,
+   maths_marks int,
+   result char(4),
+);
+desc student;
+insert into student(id,name,salary,email,phone)values(1,'vishva',2000000,'vishva@gmail.com',0987654321);
+insert into student(id,name,salary,email,phone)values(2,'tejas',300000,'tg@gmail.com',5269852122);
+insert into student(id,name,salary,email,phone)values(3,'vish',20000,'vishva123@gmail.com',857654321);
+select * from student;

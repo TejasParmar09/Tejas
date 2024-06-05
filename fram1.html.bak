@@ -1,0 +1,6 @@
+<frameset rows="15%,*%">
+	<frame place="top" src="head.html">
+<frameset cols="10%,*%">
+	<frame place="left" src="one.html">
+	<frame place="right" src="two.html">
+</frameset>
